@@ -1,0 +1,1 @@
+launch bash -c "tmux has-session -t general 2>/dev/null && tmux attach-session -t general || tmux new-session -s general"
