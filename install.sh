@@ -151,6 +151,9 @@ v gsettings set org.gnome.desktop.interface font-name 'Rubik 11'
 v gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 v kwriteconfig6 --file kdeglobals --group KDE --key widgetStyle Darkly
 
+## Setup editor
+v install-rust-analyzer
+
 
 #####################################################################################
 printf "\e[36m[$0]: 2. Copying + Configuring\e[0m\n"
