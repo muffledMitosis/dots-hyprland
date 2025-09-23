@@ -22,9 +22,10 @@ install-yay() {
   rm -rf /tmp/buildyay
 }
 
-# I guess this would work for any distro?
-install-rust-analyzer() {
-  x rustup component add rust-analyzer
+# Only for Arch(based) distro.
+install-meths-editor() {
+  x yay -S --needed --noconfirm neovim-nightly-bin lua-language-server typescript-language-server clang rustup
+	x rustup component add rust-analyzer
 }
 
 # Not for Arch(based) distro.

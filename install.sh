@@ -152,7 +152,8 @@ v gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 v kwriteconfig6 --file kdeglobals --group KDE --key widgetStyle Darkly
 
 ## Setup editor
-v install-rust-analyzer
+showfun install-meths-editor
+v install-meths-editor
 
 
 #####################################################################################
